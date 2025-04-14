@@ -1,0 +1,37 @@
+#Emmanuel Crugliano 4g
+#Questo programma descrive il funzionamento del tabellone di ordinazione presente al fast food McDonald ma ambientanto al donegani perciò McDonegani
+print("Benvenuti al Mcdonegani")
+print("scegli un panino")
+print("digita 1 per big mac,2 per crispy,3 per mc chicken")
+scelta=int(input())
+codice=int(input())
+codice=COD0102
+if scelta==1:
+spesa=spesa+7,00
+elif scelta==2: 
+spesa=spesa+5,80
+elif scelta==3:
+spesa=spesa+4,80
+print("scegli un contorno")
+print("digita 1 patatine,2 per nuggets,3 per chicken wings")
+scelta=int(input())
+if scelta==1:
+spesa=spesa+3,00
+elif scelta==2:
+spesa=spesa+4,80
+elif scelta==3:
+spesa=spesa+3,50
+print("scegli un dessert")
+print("digita 1 caffè,2 per mc flurry,3 per milk shake")
+scelta=int(input())
+if scelta==1:
+spesa=spesa+1,20
+elif scelta==2:
+spesa=spesa+2,80
+elif scelta==3:
+spesa=spesa+3,50
+print("Inserire un codice")
+if codice==COD0102
+spesa=spesa*10/100
+print("Grazie hai diritto allo sconto del 10%,il totale da pagare scontanto è:"spesa)
+McDonegani.py
